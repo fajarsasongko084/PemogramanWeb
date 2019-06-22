@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>History</title>
+	<link rel="stylesheet" type="text/css" href="css/footer.css">
+    <link rel="stylesheet" type="text/css" href="css/custom.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+	
+	<!-- NAV BAR -->
+	<!-- nav bar LOGO -->
+	<nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-dark">
+	  <a class="navbar-brand ml-2" href="index.html">
+	    Lamborghini
+	  </a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	  </button>
+
+	  <!-- nav bar Menuu -->
+	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+	    <ul class="navbar-nav mr-auto">
+	        
+	      <!-- DROPDOWN MODELS -->
+	      <li class="nav-item dropdown">
+	      <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" id="navbarDropdown" aria-haspopup="true" aria-expanded="false">MODELS
+	      <span class="caret"></span></a>
+	      <ul class="dropdown-menu">
+	        <!-- URUS -->
+	        <li><a class="dropdown-item" href="Models/Urus.html">Urus</a></li>
+	        <!-- HURACAN -->
+	        <li class="dropdown-submenu dropright">
+	          <a class="dropdown-item test dropdown-toggle" href="#">Huracan<span class="caret"></span></a>
+	          <ul class="dropdown-menu dropright" aria-labelledby="navbarDropdown">
+	            <li><a class="dropdown-item" href="Huracan_EVO.html">Huracan EVO</a></li>
+	            <li><a class="dropdown-item" href="Huracan_RWD.html">Huracan RWD</a></li>
+	          </ul>
+	        </li>
+	        <!-- AVENTADOR -->
+	        <li class="dropdown-submenu dropright">
+	          <a class="dropdown-item test dropdown-toggle" href="#">Aventador<span class="caret"></span></a>
+	          <ul class="dropdown-menu dropright" aria-labelledby="navbarDropdown">
+	            <li><a class="dropdown-item" href="Aventador_S.html">Aventador S</a></li>
+	            <li><a class="dropdown-item" href="Aventador_SVJ.html">Aventador SVJ</a></li>
+	          </ul>
+	      </ul>
+
+	    <!-- DROPDOWN BRAND -->
+	      <li class="nav-item dropdown">
+	      <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" id="navbarDropdown" aria-haspopup="true" aria-expanded="false">BRAND
+	      <span class="caret"></span></a>
+	      <ul class="dropdown-menu">
+	        <!-- PEOPLE -->
+	        <li class="dropdown-submenu dropright">
+	          <a class="dropdown-item test dropdown-toggle" href="#">People<span class="caret"></span></a>
+	          <ul class="dropdown-menu dropright" aria-labelledby="navbarDropdown">
+	            <li><a class="dropdown-item" href="Brand/Ferruccio.html">Ferrucio Lamborghini</a></li>
+	            <li><a class="dropdown-item" href="#">Marcello Gandhini</a></li>
+	            <li><a class="dropdown-item" href="#">Giampaolo Dallara</a></li>
+	          </ul>
+	        </li>
+	        <!-- MASTERPIECES -->
+	        <li><a class="dropdown-item" href="#">Masterpieces</a></li>
+	        <!-- DESIGN -->
+	        <li><a class="dropdown-item" href="#">Design</a></li>
+	      </ul>
+	      </li>
+	      
+	      <!-- OWNERSHIP -->
+	      <li class="nav-item dropdown">
+	      <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" id="navbarDropdown" aria-haspopup="true" aria-expanded="false">OWNERSHIP
+	      <span class="caret"></span></a>
+	      <ul class="dropdown-menu">
+	        <!-- LOCATORS -->
+	        <li class="dropdown-submenu dropright">
+	          <a class="dropdown-item test dropdown-toggle" href="#">Locators<span class="caret"></span></a>
+	          <ul class="dropdown-menu dropright" aria-labelledby="navbarDropdown">
+	            <li><a class="dropdown-item" href="#">Dealer Locator</a></li>
+	            <li><a class="dropdown-item" href="#">Service Locator</a></li>
+	            <li><a class="dropdown-item" href="#">Coullision Center</a></li>
+	          </ul>
+	        </li>
+	        <!-- SPAREPART -->
+	        <li><a class="dropdown-item" href="Ownership/Sparepart.html">Sparepart</a></li>
+	        <!-- ACCESSORI ORIGINALI -->
+	        <li><a class="dropdown-item" href="#">Accessori Originali</a></li>
+	      </ul>
+	      </li>
+
+	      <li class="nav-item">
+	        <a class="nav-link" href="#">HISTORY</a>
+	      </li>
+
+	      <li class="nav-item">
+	        <a class="nav-link" href="#">MOTOSPORT</a>
+	      </li>
+	    </ul>
+
+	    <!-- form search -->
+	    <form class="form-inline ml-2 my-lg-0">
+
+	        <!-- kolom search -->
+	        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+
+	        <!-- Search -->
+	        <button class="btn btn-outline-success mr-2 my-sm-0" type="submit">Search</button>
+
+	        <!-- login -->
+	        <button class="btn btn-outline-primary my-2 my-sm-0"><a href="Login/LOGIN.html">Login</a></button>
+	    </form>
+	  </div>
+	</nav>	
+
+	<div class="row">
+		<div class="col-md-2" style="background: red;">
+			<ol>
+				<li><button type="button" id="ganti" onclick="loadDoc()">Change Content</button></li>
+				<li><a onclick="loadDoce()">Change Content</a></li>
+				<li><a href="#" title="">1963-1964</a></li>
+			</ol>
+		</div>
+		<div class="col-md-9">
+			<div class="row">
+				<div class="col-md-6" style="background: green;">
+					<!-- <img src="asd" alt=""> -->
+				</div>
+				<div class="col-md-6 demo" style="background: blue;">
+					<p class="sasa ">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div>
+			</div>
+			<div 	class="col-md-12" style="background: yellow">
+				asdad
+			</div>		
+		</div>
+	</div>
+
+	<footer class="footer">
+	    <div class="container bottom_border">
+	    <div class="row">
+	    <div class=" col-md-3">
+	    <h5 class="headin5_amrc col_white_amrc pt2">Models</h5>
+	    <!--headin5_amrc-->
+	      <ul class="footer_ul_amrc">
+	      <li><a href="#">Urus</a></li>
+	      <li><a href="#">Hucaran EVO</a></li>
+	      <li><a href="#">Huracan RWD</a></li>
+	      <li><a href="#">Aventador S</a></li>
+	      <li><a href="#">Aventador SVJ</a></li>
+	      </ul>
+	    <!--footer_ul_amrc ends here-->
+	    </div>
+
+	    <div class=" col-md-3">
+	    <h5 class="headin5_amrc col_white_amrc pt2">Brand</h5>
+	    <!--headin5_amrc-->
+	      <ul class="footer_ul_amrc">
+	        <li><a href="#">Ferruccio Lamborghini</a></li>
+	        <li><a href="#">Marcello Gandhini</a></li>
+	        <li><a href="#">Giampaolo Dallara</a></li>
+	        <li><a href="#">Masterpieces</a></li>
+	        <li><a href="#">Design</a></li>
+	      </ul>
+	    <!--footer_ul_amrc ends here-->
+	    </div>
+
+	    <div class=" col-md-3">
+	      <h5 class="headin5_amrc col_white_amrc pt2">Ownership</h5>
+	      <!--headin5_amrc-->
+	      <ul class="footer_ul_amrc">
+	        <li><a href="#">Dealer Locator</a></li>
+	        <li><a href="#">Service Locator</a></li>
+	        <li><a href="#">Coullisin Center</a></li>
+	        <li><a href="#">Sparepart</a></li>
+	        <li><a href="#">Accessori Originali</a></li>
+	      </ul>
+	    <!--footer_ul_amrc ends here-->
+	    </div>
+	      
+	    <div class=" col-md-3">
+	      <h5 class="headin5_amrc col_white_amrc pt2">Ownership</h5>
+	      <!--headin5_amrc-->
+	      <ul class="footer_ul_amrc">
+	        <li><a href="#">Dealer Locator</a></li>
+	        <li><a href="#">Service Locator</a></li>
+	        <li><a href="#">Coullisin Center</a></li>
+	        <li><a href="#">Sparepart</a></li>
+	        <li><a href="#">Accessori Originali</a></li>
+	      </ul>
+	    <!--footer_ul_amrc ends here-->
+	    </div>  
+
+	    </div>
+	    </div>
+
+
+	    <div class="container">
+	    <ul class="foote_bottom_ul_amrc">
+	    <li><a href="#">Models</a></li>
+	    <li><a href="#">Brand</a></li>
+	    <li><a href="#">Ownership</a></li>
+	    <li><a href="#">Motorsport</a></li>
+	    <li><a href="#">History</a></li>
+	    </ul>
+	    <!--foote_bottom_ul_amrc ends here-->
+	    <p class="text-center">Copyright @2017 | Designed With by <a href="#">Fajar Company</a></p>
+
+	    <!-- <ul class="social_footer_ul">
+	    <li><a href="http://webenlance.com"><i class="fab fa-facebook-f"></i></a></li>
+	    <li><a href="http://webenlance.com"><i class="fab fa-twitter"></i></a></li>
+	    <li><a href="http://webenlance.com"><i class="fab fa-linkedin"></i></a></li>
+	    <li><a href="http://webenlance.com"><i class="fab fa-instagram"></i></a></li>
+	    </ul> -->
+	    <!--social_footer_ul ends here-->
+	    </div>
+	  </footer>
+
+
+	<script>
+		function loadDoce() {
+		  var xhttp = new XMLHttpRequest();
+		  xhttp.onreadystatechange = function() {
+		    if (this.readyState == 4 && this.status == 200) {
+		      document.getElementById("demo").innerHTML =
+		      this.responseText;
+		    }
+		  };
+		  xhttp.open("GET", "ajax_info.txt", true);
+		  xhttp.send();
+		}
+	</script>
+	<script>
+		$(document).ready(function(){
+		  $("ganti").click(function(){
+		    $("sasa").text("Hello world!");
+		  });
+		});
+	</script>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    
+
+</body>
+</html>

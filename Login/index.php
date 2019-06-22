@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>login animasi</title>
+	<link rel="stylesheet" type="text/css" href="login.css">
+</head>
+<body>
+	<form name="form1" class="box" action="ceklogin.php" method="post">
+		<h1>Login</h1>
+		<input type="text" name="username" id="username" placeholder="Username">
+		<input type="password" name="password" placeholder="password">
+		<input type="submit" name="submit" value="Login">
+		<a href="#">
+Create a new account</a>
+	</form>
+
+</body>
+</html>
