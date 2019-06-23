@@ -205,8 +205,16 @@ body, html {
 .parallelogram {
   width: 200px;
   height: 50px;
-  transform: skew(40deg);
+  transform: skew(30deg);
   background: #555;
+}
+
+.trapezoid {
+  border-bottom: 50px solid #555;
+  border-left: 0 solid transparent;
+  border-right: 25px solid transparent;
+  height: 0;
+  width: 125px;
 }
 
 .multi-item-carousel{
@@ -243,4 +251,10 @@ body, html {
       background-image: none;
     }
   }
+}
+
+
+.atasan {
+  width: 100%;
+  height: 500px;
 }

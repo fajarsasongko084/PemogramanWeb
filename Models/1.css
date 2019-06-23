@@ -15,8 +15,8 @@ body { font-family: sans-serif; }
   width: 30%;
   height: 500px;
   margin-right: 10px;
-  background: #8C8;
-  counter-increment: gallery-cell;
+  background: #8C8;/*
+  counter-increment: gallery-cell;*/
 }
 
 .gallery-cell.is-selected {
@@ -24,11 +24,26 @@ body { font-family: sans-serif; }
 }
 
 /* cell number */
-.gallery-cell:before {
+/*.gallery-cell:before {
   display: block;
   text-align: center;
   content: counter(gallery-cell);
   line-height: 200px;
   font-size: 80px;
   color: white;
+}*/
+
+.gallery-cell h3{
+  text-align: center;
+  padding: 10px 5px;
+  text-transform: uppercase;
+}
+
+.gallery-cell img{
+  margin: 10px;
+}
+
+.gallery-cell p{
+  text-align: center;
+  margin: 15px;
 }
