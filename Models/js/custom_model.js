@@ -18,4 +18,3 @@ $('#carouselExample').on('slide.bs.carousel', function (e) {
         }
     }
 });
-  

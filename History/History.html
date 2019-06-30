@@ -39,16 +39,16 @@
 	        <li class="dropdown-submenu dropright">
 	          <a class="dropdown-item test dropdown-toggle" href="#">Huracan<span class="caret"></span></a>
 	          <ul class="dropdown-menu dropright" aria-labelledby="navbarDropdown">
-	            <li><a class="dropdown-item" href="../Huracan_EVO.html">Huracan EVO</a></li>
-	            <li><a class="dropdown-item" href="../Huracan_RWD.html">Huracan RWD</a></li>
+	            <li><a class="dropdown-item" href="../Models/Huracan_EVO.html">Huracan EVO</a></li>
+	            <li><a class="dropdown-item" href="../Models/Huracan_RWD.html">Huracan RWD</a></li>
 	          </ul>
 	        </li>
 	        <!-- AVENTADOR -->
 	        <li class="dropdown-submenu dropright">
 	          <a class="dropdown-item test dropdown-toggle" href="#">Aventador<span class="caret"></span></a>
 	          <ul class="dropdown-menu dropright" aria-labelledby="navbarDropdown">
-	            <li><a class="dropdown-item" href="../Aventador_S.html">Aventador S</a></li>
-	            <li><a class="dropdown-item" href="../Aventador_SVJ.html">Aventador SVJ</a></li>
+	            <li><a class="dropdown-item" href="../Models/Aventador_S.html">Aventador S</a></li>
+	            <li><a class="dropdown-item" href="../Models/Aventador_SVJ.html">Aventador SVJ</a></li>
 	          </ul>
 	      </ul>
 
@@ -113,25 +113,26 @@
 	        <button class="btn btn-outline-success mr-2 my-sm-0" type="submit">Search</button>
 
 	        <!-- login -->
-	        <button class="btn btn-outline-primary my-2 my-sm-0"><a href="Login/LOGIN.html">Login</a></button>
+	        <button class="btn btn-outline-primary my-2 my-sm-0"><a href="../Login/index.php">Login</a></button>
 	    </form>
 	  </div>
 	</nav>	
 
-	<div class="row">
-		<div class="col-md-2" style="background: red;">
-			<button onclick="load1()">Change Content</button>
-			<button onclick="load2()">Change Content</button>
-			<button onclick="load3()">Change Content</button>
-			
+	<div class="row berita ">
+		<div class="col-md-2 ">
+			<ul style="list-style: none;">
+				<li><a onclick="load1()">load 1</a></li>
+				<li><a onclick="load2()">Load 2</a></li>
+				<li><a onclick="load3()">Load 3</a></li>
+			</ul>
 		</div>
 		<div class="col-md-9">
 			<div class="row" >
 				<div class="col-md-6" style="background: green;">
-					<!-- <img src="asd" alt=""> -->
+					<img id="foto" src="" alt="">
 				</div>
-				<div class="col-md-6" id="demo" style="background: blue;">
-					<p class="sasa" style="overflow-y: scroll; height: 300px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				<div class="col-md-6 berita" id="demo" style="background: blue;">
+					<p style="overflow-y: scroll; height: 300px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
@@ -145,91 +146,66 @@
 					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 				</p>
 				</div>
-			</div>
-			<div 	class="col-md-12" style="background: yellow">
-				asdad
 			</div>		
 		</div>
 	</div>
 
 	<footer class="footer">
-	    <div class="container bottom_border">
+		<div class="container bottom_border">
 	    <div class="row">
-	    <div class=" col-md-3">
-	    <h5 class="headin5_amrc col_white_amrc pt2">Models</h5>
-	    <!--headin5_amrc-->
-	      <ul class="footer_ul_amrc">
-	      <li><a href="#">Urus</a></li>
-	      <li><a href="#">Hucaran EVO</a></li>
-	      <li><a href="#">Huracan RWD</a></li>
-	      <li><a href="#">Aventador S</a></li>
-	      <li><a href="#">Aventador SVJ</a></li>
-	      </ul>
-	    <!--footer_ul_amrc ends here-->
-	    </div>
+	    	<div class=" col-md-4">
+	    		<h5 class="headin5_amrc col_white_amrc pt2">Models</h5>
+		      <ul class="footer_ul_amrc">
+		      <li><a href="../Models/Urus.html">Urus</a></li>
+		      <li><a href="../Models/Huracan_EVO.html">Hucaran EVO</a></li>
+		      <li><a href="../Models/Huracan_RWD.html">Huracan RWD</a></li>
+		      <li><a href="../Models/Aventador_S.html">Aventador S</a></li>
+		      <li><a href="../Models/Aventador_SVJ.html">Aventador SVJ</a></li>
+		      </ul>
+	    	</div>
 
-	    <div class=" col-md-3">
-	    <h5 class="headin5_amrc col_white_amrc pt2">Brand</h5>
-	    <!--headin5_amrc-->
-	      <ul class="footer_ul_amrc">
-	        <li><a href="#">Ferruccio Lamborghini</a></li>
-	        <li><a href="#">Marcello Gandhini</a></li>
-	        <li><a href="#">Giampaolo Dallara</a></li>
-	        <li><a href="#">Masterpieces</a></li>
-	        <li><a href="#">Design</a></li>
-	      </ul>
-	    <!--footer_ul_amrc ends here-->
-	    </div>
+		    <div class=" col-md-4">
+		    	<h5 class="headin5_amrc col_white_amrc pt2">Brand</h5>
+		      <ul class="footer_ul_amrc">
+		        <li><a href="../Brand/Ferruccio.html">Ferruccio Lamborghini</a></li>
+		        <li><a href="../Brand/Marcello.html">Marcello Gandhini</a></li>
+		        <li><a href="../Brand/Giampaollo.html">Giampaollo Dallara</a></li>
+		        <li><a href="../Brand/Masterpieces.html">Masterpieces</a></li>
+		        <li><a href="../Brand/Design.html">Design</a></li>
+		      </ul>
+		    </div>
 
-	    <div class=" col-md-3">
-	      <h5 class="headin5_amrc col_white_amrc pt2">Ownership</h5>
-	      <!--headin5_amrc-->
-	      <ul class="footer_ul_amrc">
-	        <li><a href="#">Dealer Locator</a></li>
-	        <li><a href="#">Service Locator</a></li>
-	        <li><a href="#">Coullisin Center</a></li>
-	        <li><a href="#">Sparepart</a></li>
-	        <li><a href="#">Accessori Originali</a></li>
-	      </ul>
-	    <!--footer_ul_amrc ends here-->
+		    <div class=" col-md-4">
+		      <h5 class="headin5_amrc col_white_amrc pt2">Ownership</h5>
+		      <ul class="footer_ul_amrc">
+		        <li><a href="../Ownership/Dealer.html">Dealer Locator</a></li>
+		        <li><a href="../Ownership/Service.html">Service Locator</a></li>
+		        <li><a href="../Ownership/Center.html">Coullisin Center</a></li>
+		        <li><a href="../Ownership/Sparepart.html">Sparepart</a></li>
+		        <li><a href="../Ownership/Accessori.html">Accessori Originali</a></li>
+		      </ul>
+		    </div>
+	        
 	    </div>
-	      
-	    <div class=" col-md-3">
-	      <h5 class="headin5_amrc col_white_amrc pt2">Ownership</h5>
-	      <!--headin5_amrc-->
-	      <ul class="footer_ul_amrc">
-	        <li><a href="#">Dealer Locator</a></li>
-	        <li><a href="#">Service Locator</a></li>
-	        <li><a href="#">Coullisin Center</a></li>
-	        <li><a href="#">Sparepart</a></li>
-	        <li><a href="#">Accessori Originali</a></li>
-	      </ul>
-	    <!--footer_ul_amrc ends here-->
-	    </div>  
-
-	    </div>
-	    </div>
+	  </div>
 
 
-	    <div class="container">
-		    <ul class="foote_bottom_ul_amrc">
+	  <div class="container">
+	    <ul class="foote_bottom_ul_amrc">
 		    <li><a href="#">Models</a></li>
 		    <li><a href="#">Brand</a></li>
 		    <li><a href="#">Ownership</a></li>
-		    <li><a href="#">Motorsport</a></li>
-		    <li><a href="#">History</a></li>
-		    </ul>
-		    <!--foote_bottom_ul_amrc ends here-->
-		    <p class="text-center">Copyright @2017 | Designed With by <a href="#">Fajar Company</a></p>
-
-		    <ul class="social_footer_ul">
+		    <li><a href="../Motorsport/Motorsport.html">Motorsport</a></li>
+		    <li><a href="../History/History.html">History</a></li>
+	    </ul>
+	    <p class="text-center">Copyright @2017 | Designed With by <a href="#">Fajar Company</a></p>
+	    <!-- <ul class="social_footer_ul">
 		    <li><a href="http://webenlance.com"><i class="fab fa-facebook-f"></i></a></li>
 		    <li><a href="http://webenlance.com"><i class="fab fa-twitter"></i></a></li>
 		    <li><a href="http://webenlance.com"><i class="fab fa-linkedin"></i></a></li>
 		    <li><a href="http://webenlance.com"><i class="fab fa-instagram"></i></a></li>
-		    </ul>
-		    <!--social_footer_ul ends here-->
-	    </div>
+	    </ul> -->
+		</div>
 	</footer>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
