@@ -265,6 +265,16 @@ body, html {
 
 .berita {
   height: 400px;
+  
 }
 
 
+.tengah {
+  padding-left: auto;
+  padding-right: auto;
+}
+
+.gallery-cell img {
+  margin-right: auto;
+  margin-left: auto;
+}
