@@ -8,19 +8,20 @@
 body { font-family: sans-serif; }
 
 .gallery {
-  background: #EEE;
+  background:white;
 }
 
 .gallery-cell {
   width: 30%;
   height: 500px;
   margin-right: 15px;
-  background: #686868;/*
+  background: #EEE;/*
   counter-increment: gallery-cell;*/
 }
 
 .gallery-cell.is-selected {
-  background: #686868;
+  background:  #686868;
+  color: white;
 }
 
 /* cell number */
@@ -40,9 +41,8 @@ body { font-family: sans-serif; }
 }
 
 .gallery-cell img{
-  margin-left:auto;
-  margin-right:auto;
-}
+    text-align: center;
+  }
 
 .gallery-cell p{
   text-align: center;
