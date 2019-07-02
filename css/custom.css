@@ -86,7 +86,7 @@ body, html {
 
 /* Style tab links */
 .tablink {
-  background-color: #555;
+  background-color: #263238;
   color: white;
   float: left;
   border: none;
@@ -99,7 +99,7 @@ body, html {
 }
 
 .tablink:hover {
-  background-color: #777;
+  background-color: gray;
 }
 
 /* Style the tab content (and add height:100% for full page content) */
@@ -110,11 +110,11 @@ body, html {
   height: 100%;
 }
 
-#Engine {background-color: red;}
-#Transmision {background-color: green;}
-#Performance {background-color: blue;}
-#Braking_System {background-color: orange;}
-#Dimension {background-color: yellow;}
+#Engine {background-color:#8C515C;}
+#Transmision {background-color: #403440;}
+#Performance {background-color:#5D8C84;}
+#Braking_System {background-color: #F27272;}
+#Dimension {background-color:#D97E7E;}
 
 
 
@@ -274,6 +274,7 @@ body, html {
 }
 
 .driving {
-  background-color: grey;
+  background-color: white;
   border-radius: 10px;
+  color: gray;
 }
