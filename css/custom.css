@@ -269,8 +269,8 @@ body, html {
 }
 
 .tengah {
-  padding-left: auto;
-  padding-right: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .driving {
