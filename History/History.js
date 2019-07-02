@@ -1,8 +1,13 @@
 function load1963() {
 	var xhttp = new XMLHttpRequest();
+	var img = new Image();
+	url = "../img/1.jpg";
+	container = document.getElementById("foto");
 	xhttp.onreadystatechange = function() {
 		if (this.readyState == 4 && this.status == 200) {
 	  	document.getElementById("demo").innerHTML = this.responseText;
+			img.onload = function() {container.appendChild(img);};
+			img.src = url;
 		}
 	};
 	xhttp.open("GET", "1963.txt", true);

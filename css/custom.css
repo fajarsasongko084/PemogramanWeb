@@ -268,13 +268,12 @@ body, html {
   
 }
 
-
 .tengah {
   padding-left: auto;
   padding-right: auto;
 }
 
-.gallery-cell img {
-  margin-right: auto;
-  margin-left: auto;
+.driving {
+  background-color: grey;
+  border-radius: 10px;
 }

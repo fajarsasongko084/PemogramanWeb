@@ -14,13 +14,13 @@ body { font-family: sans-serif; }
 .gallery-cell {
   width: 30%;
   height: 500px;
-  margin-right: 10px;
-  background: #8C8;/*
+  margin-right: 15px;
+  background: #686868;/*
   counter-increment: gallery-cell;*/
 }
 
 .gallery-cell.is-selected {
-  background: #ED2;
+  background: #686868;
 }
 
 /* cell number */
@@ -40,7 +40,8 @@ body { font-family: sans-serif; }
 }
 
 .gallery-cell img{
-  margin: 10px;
+  margin-left:auto;
+  margin-right:auto;
 }
 
 .gallery-cell p{
